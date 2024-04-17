@@ -1,0 +1,32 @@
+{
+  "name": "portfolio-api-express-postgres",
+  "version": "1.0.0",
+  "description": "Portfolio API using Express.js with Typescript and PostgreSQL",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "rm -rf dist/ && tsc",
+    "start": "node dist/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.12.7",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@types/dotenv-safe": "^8.1.6",
+    "dotenv-safe": "^9.1.0",
+    "express": "^4.19.2"
+  }
+}
